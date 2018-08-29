@@ -1,0 +1,36 @@
+-- This file has been generated from package.yaml by hpack version 0.28.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 4187daeba9909c4325a82563d893cd705acba768bd11b8c93c306f8be07350e1
+
+name:           eight-days
+version:        1.1.0.3
+build-type:     Simple
+cabal-version:  >= 1.10
+
+library
+  exposed-modules:
+      EightDays
+  other-modules:
+      Paths_eight_days
+  hs-source-dirs:
+      src
+  build-depends:
+      base
+    , unicode-show
+  default-language: Haskell2010
+
+test-suite test
+  type: exitcode-stdio-1.0
+  main-is: Tests.hs
+  other-modules:
+      Paths_eight_days
+  hs-source-dirs:
+      test
+  build-depends:
+      base
+    , eight-days
+    , hspec
+    , unicode-show
+  default-language: Haskell2010

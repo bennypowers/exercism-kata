@@ -1,0 +1,22 @@
+name: pagination
+version: 1.3.0.6
+
+dependencies:
+  - base
+  - split
+
+library:
+  exposed-modules: Pagination
+  source-dirs: src
+  # dependencies:
+  # - foo       # List here the packages you
+  # - bar       # want to use in your solution.
+
+tests:
+  test:
+    main: Tests.hs
+    source-dirs: test
+    dependencies:
+      - pagination
+      - QuickCheck
+      - hspec
