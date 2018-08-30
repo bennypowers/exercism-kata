@@ -11,8 +11,8 @@ def hey(phrase):
     stripped = phrase.strip()
     return (
         YELLED_QUESTION if stripped.isupper() and stripped.endswith('?')
-        else QUESTION if stripped.endswith('?')
-        else YELL if stripped.isupper()
-        else EMPTY if stripped == ""
+        else QUESTION   if stripped.endswith('?')
+        else YELL       if stripped.isupper()
+        else EMPTY      if not stripped
         else DEFAULT
     )
