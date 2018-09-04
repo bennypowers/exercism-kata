@@ -3,6 +3,7 @@ version: 0.1.0.2
 
 dependencies:
   - base
+  - split
 
 library:
   exposed-modules: House
