@@ -1,10 +1,9 @@
 module Meetup (Weekday(..), Schedule(..), meetupDay) where
 
-import Weekday
-
-import Date (Year, Month, getWeek, getWeekNumber, getDate, getCalendar, getWeekdays)
-
-import Data.Time.Calendar (Day)
+import           Data.Time.Calendar (Day)
+import           Date               (Month, Year, getCalendar, getDate, getWeek,
+                                     getWeekNumber, getWeekdays)
+import           Weekday
 
 data Schedule = First
               | Second

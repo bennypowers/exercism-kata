@@ -19,11 +19,13 @@ module Date (
   isLast,
 ) where
 
-import Weekday
+import           Weekday
 
-import Data.Time.Calendar (Day, toGregorian, fromGregorian, gregorianMonthLength)
+import           Data.Time.Calendar             (Day, fromGregorian,
+                                                 gregorianMonthLength,
+                                                 toGregorian)
 
-import Data.Time.Calendar.OrdinalDate (mondayStartWeek)
+import           Data.Time.Calendar.OrdinalDate (mondayStartWeek)
 
 type Year = Integer
 type Month = Int
