@@ -11,7 +11,7 @@ findInRange (lower, upper) arr x
   | lower == pivot   = Nothing
   | upper == pivot   = Nothing
   | x <  arr ! pivot = findInRange (lower, pivot - 1) arr x
-  | x >  arr ! pivot = findInRange (pivot, upper - 1) arr x
+  | x >  arr ! pivot = findInRange (pivot, upper) arr x
   | otherwise        = Nothing
   where pivot = lower + ((upper - lower) `div` 2)
 
