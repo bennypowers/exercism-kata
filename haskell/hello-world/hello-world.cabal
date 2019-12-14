@@ -1,13 +1,14 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ea070d6e0030d2b7bf968e13f9e2aca4aeaf86e84d1148217e41c172bc8f5b37
+-- hash: 8028cc948b30fe1a5969c9286436e2ed0d2acffa149a50ad83e8071800b5b0ff
 
 name:           hello-world
 version:        1.1.0.4
 build-type:     Simple
-cabal-version:  >= 1.10
 
 library
   exposed-modules:

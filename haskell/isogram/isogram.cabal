@@ -1,13 +1,14 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d9f6fa3a8891970c3171a16f5e7d5c3b046f9aa22795245c001175a5fd5bb54a
+-- hash: e64f49664fc7e180769eec07e4f63c5154c429e42ecf5cd27d8afa0af3ee94ca
 
 name:           isogram
 version:        1.4.0.4
 build-type:     Simple
-cabal-version:  >= 1.10
 
 library
   exposed-modules:

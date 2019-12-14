@@ -1,13 +1,14 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 4187daeba9909c4325a82563d893cd705acba768bd11b8c93c306f8be07350e1
+-- hash: 5388575980fd0b5a0aa968551a1c4cd2ac5f9be9a092b3286d5eda5feea2802d
 
 name:           eight-days
 version:        1.1.0.3
 build-type:     Simple
-cabal-version:  >= 1.10
 
 library
   exposed-modules:

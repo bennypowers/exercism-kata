@@ -1,13 +1,14 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 397b9d9ddecd5631563127d7b585f2c26c28ccfb85af73da26d6a1c1deb6330a
+-- hash: 745b27ec6fe152f8f497b92236e9e56fa8a9476c4c13e5e7eb30ce46165475c9
 
 name:           pangram
 version:        1.4.1.7
 build-type:     Simple
-cabal-version:  >= 1.10
 
 library
   exposed-modules:

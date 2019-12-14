@@ -1,13 +1,14 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 41d026687ecbe0cb266d63da0612708cb02bce0797464b38fd69acefa09211e5
+-- hash: cd93a9b904b9f205a5c57249fb06081f90e58875a72d2e0732a4b0cc50a6b9b0
 
 name:           phone-number
 version:        1.4.0.5
 build-type:     Simple
-cabal-version:  >= 1.10
 
 library
   exposed-modules:

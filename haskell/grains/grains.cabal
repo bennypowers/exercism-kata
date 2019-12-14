@@ -1,13 +1,14 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: fdbcc60330d3b5f46bd899c3e154e2378bc0a235ba3bc66c624d6a16de8d7743
+-- hash: 75b65876427d68e817edbb2be598836201cd876b89c3b57c2f44d60fbf14d48e
 
 name:           grains
 version:        1.1.0.4
 build-type:     Simple
-cabal-version:  >= 1.10
 
 library
   exposed-modules:

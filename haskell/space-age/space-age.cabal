@@ -1,13 +1,14 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 3b186751157a0f9bf366e17a4eec5ceffd5148853dd36562729fe0729db6f26e
+-- hash: ce4ea2c6a956cd87d3ed9f4a48f03496034725c272d30db95f1d3ce12b9d39ad
 
 name:           space-age
 version:        1.1.0.4
 build-type:     Simple
-cabal-version:  >= 1.10
 
 library
   exposed-modules:

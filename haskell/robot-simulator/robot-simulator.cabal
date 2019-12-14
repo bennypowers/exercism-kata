@@ -1,13 +1,14 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 71dab5c6fc90156fabd67dd4a81fa09c21afccf570b7d2d90ec27155479685d3
+-- hash: 9a37724196ccc33df44ed9043bcba30e9a6207566f8b2dbd93e2bda23e24b5ee
 
 name:           robot-simulator
 version:        2.2.0.5
 build-type:     Simple
-cabal-version:  >= 1.10
 
 library
   exposed-modules:

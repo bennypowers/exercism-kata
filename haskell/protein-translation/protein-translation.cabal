@@ -1,13 +1,14 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: c72ca71a5f392f8803801f3f27634ccaee5174fadfcaed88caa392a8800346d4
+-- hash: fc6006a965ff76f14a03b314e4c32b763e5159a24616dc24007be91e2ae34f4f
 
 name:           protein-translation
 version:        1.1.1.2
 build-type:     Simple
-cabal-version:  >= 1.10
 
 library
   exposed-modules:

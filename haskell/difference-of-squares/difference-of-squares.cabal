@@ -1,13 +1,14 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: eaf4c609d097960bee9aa3041b43cd369159a61559ce5f210c6e5a79fb76ece3
+-- hash: fcc9451a1929c30de163457bd96df4a87162d1185061258f7c084f0f7c1c75ff
 
 name:           difference-of-squares
 version:        1.2.0.5
 build-type:     Simple
-cabal-version:  >= 1.10
 
 library
   exposed-modules:

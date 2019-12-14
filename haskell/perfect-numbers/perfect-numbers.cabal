@@ -1,14 +1,16 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 133664b61315c0a7a05694715882cbbc800d92ca8e60d0fc560b771075920ead
+-- hash: 329cab5cc1459149d5346bc376b51ba0f6544aa7c9d81af83d23d909705bffb9
 
 name:           perfect-numbers
 version:        1.1.0.2
+license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
-cabal-version:  >= 1.10
 
 library
   exposed-modules:

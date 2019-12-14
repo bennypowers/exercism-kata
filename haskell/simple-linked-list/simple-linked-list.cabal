@@ -1,13 +1,14 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ceee802327d3f6a7c864fc2b0c03226a4239c4b904ff1deedb45e2750c7ae125
+-- hash: d0b67df4d65652b7ded530da17b7dc79feb2faccc4d35ab29c36de1718f75084
 
 name:           simple-linked-list
 version:        0.1.0.2
 build-type:     Simple
-cabal-version:  >= 1.10
 
 library
   exposed-modules:

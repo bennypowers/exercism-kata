@@ -1,13 +1,14 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 296ff97b431ac431d13f5ff4e846b1cb16848cffaed0731ebeff82870d825af7
+-- hash: 3cfa66843b1f642c8c18d669fce877682ba5e2c529f0ea83d2215dfa055b40ff
 
 name:           scrabble-score
 version:        1.1.0.4
 build-type:     Simple
-cabal-version:  >= 1.10
 
 library
   exposed-modules:
